@@ -1,0 +1,37 @@
+.about-container{
+    display: flex;
+    justify-content: center;
+}
+.about-card{
+    display: flex;
+    align-items: center;
+}
+.about-content{
+    width: 700px;
+    margin-right: 42px;
+}
+.about-image{
+    height: 640px;
+    width: 640px;
+}
+.about-title{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 26px;
+}
+.about-para{
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.about-button{
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 11px;
+    padding-top: 11px;
+    border-radius: 6px;
+    border: none;
+    background-color: #3057f0;
+    color: #ffffff;
+}

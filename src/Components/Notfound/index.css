@@ -1,0 +1,17 @@
+.notfound-main-container{
+    width: 100vw;
+    height:100vh;
+  
+}
+.not-found-image{
+    height:600px;
+    width:700px
+}
+.notfound-main-container2{
+    height: 90vh;
+    width:100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center
+}

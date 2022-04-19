@@ -1,0 +1,51 @@
+.form-container{
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+    width: 290px;
+    border-radius: 10px;
+    margin-left: 23px;  
+}
+.form-card{
+    display: flex;
+    flex-direction: column;
+}
+.input-card{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.title{
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 28px;
+    color: #5c69ff;
+}
+.label{
+    font-size: 13px;
+    color: #323;
+}
+.error-msg{
+    font-size: 12px;
+    color: red;
+    margin-bottom: 1px;
+}
+.button{
+    color: #ffffff;
+    background-color: blue;
+    border: 0px;
+    border-radius: 6px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 8px;
+    cursor: pointer;
+    outline: none;
+}
+.status-para{
+    color:rgb(26, 112, 26);
+    font-weight:bold;
+    text-align: center;
+}

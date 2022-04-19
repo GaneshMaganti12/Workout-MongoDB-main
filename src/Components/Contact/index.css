@@ -1,0 +1,37 @@
+.contact-container{
+    display: flex;
+    justify-content: center;
+}
+.contact-card{
+    display: flex;
+    align-items: center;
+}
+.contact-content{
+    width: 700px;
+    margin-right: 42px;
+}
+.contact-image{
+    height: 640px;
+    width: 640px;
+}
+.contact-title{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 26px;
+}
+.contact-para{
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.contact-button{
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 11px;
+    padding-top: 11px;
+    border-radius: 6px;
+    border: none;
+    background-color: #3057f0;
+    color: #ffffff;
+}

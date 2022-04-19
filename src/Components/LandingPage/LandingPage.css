@@ -1,0 +1,23 @@
+.workout-image{
+    height: 600px;
+    width: 800px;
+}
+.land-page-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-items: center;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.welcome-title{
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+.workout-title{
+    font-size: 64px;
+    font-weight: 800;
+    color: #329fc7;
+}

@@ -1,0 +1,65 @@
+.main-card-container{
+    height: 100vh;
+    padding-top: 65px;
+    padding-bottom: 55px;
+}
+.main-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+.card-image{
+    height: 360px;
+    width: 550px;
+    border-radius: 8px;
+    border: none;
+}
+.button-cards{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-content{
+    margin-top: 20px;
+}
+.card-heading{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-decoration: underline;
+}
+.card-calories{
+    font-size: 15px;
+}
+.calorie{
+    color: red;
+    font-weight: 600;
+    font-size: 15px;
+}
+.card-para1{
+    font-size: 15px;
+    word-spacing: 2px;
+    width: 85%;
+    margin-top: 10px;
+}
+.card-descrip{
+    font-size: 18px;
+    margin-bottom: 1px;
+    text-decoration: underline;
+}
+.video-player{
+    padding-left: 130px;
+    margin-top: 60px;
+    padding-bottom: 35px;
+}
+.card-title{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 65px;
+    text-decoration: underline;
+}
+.video-container{
+    margin-top: 38px;
+}
