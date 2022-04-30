@@ -3,7 +3,6 @@ const express = require('express');
 const router = express.Router();
 const{authenticateUser,isAuthenticatedUser}=require("../Middlewares/auth")
 const users = require('../models/user')
-const jwt = require('jsonwebtoken')
 
 
 // protected route on back-end

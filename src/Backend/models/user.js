@@ -4,14 +4,14 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 const jwt = require('jsonwebtoken')
 const bcrypt = require('bcrypt');
-const { required } = require('nodemon/lib/config');
 // create a schema
 // create a schema
 const userSchema = new Schema({
     email: {
         type: String,
         required: true,
-        unique: true
+        unique: true,
+        match: [/@gmail.com$/, "Please add a valid email"]
        
     },
     password: {

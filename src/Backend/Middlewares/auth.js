@@ -1,4 +1,3 @@
-const { json } = require("express");
 const users=require("../models/user")
 const jwt = require('jsonwebtoken')
 
@@ -15,7 +14,7 @@ const authenticateUser = async function(req, res, next){
             res.status(401).send({"auth":false,"error":"Invalid Password"})
         }
     }else{
-        res.status(200).send({"auth":false,"error":"invalide username"})
+        res.status(200).send({"auth":false,"error":"invalid username"})
     }
 }
 
